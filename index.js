@@ -39,5 +39,14 @@ function NavBar(){return(
 </nav>
 )}
 
-ReactDOM.render(<div><NavBar  /></div>, document.getElementById("root"));
+function MainContent()
+    {
+        return(<h1>I'm learning react</h1>);
+    }
+
+ReactDOM.render(
+                <div>
+                    <NavBar  />
+                    <MainContent  />
+                    </div>, document.getElementById("root"));
 
