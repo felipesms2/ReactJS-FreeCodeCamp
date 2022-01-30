@@ -68,5 +68,33 @@ const navbar = (
                 </nav>
                 )
 
-const page = (<h1>test</h1>);
-ReactDOM.render(navbar, document.getElementById("root"));
+const page = (
+                <div>
+                    <h1>
+                        My React WebSite
+                    </h1>
+                    <h3>
+                        Reason for use react
+                    </h3>
+                    <ol>
+                        <li>
+                            It's composable
+                        </li>
+                        <li>
+                            It's Declarative
+                        </li>
+                        <li>
+                            Hirable Skill
+                        </li>
+                        <li>
+                            Mainteined by skillable people
+                        </li>
+                    </ol>
+                </div>);
+
+//ReactDOM.render(navbar, document.getElementById("root"));
+
+            // document.getElementById("root").append(page)
+            // document.getElementById("root").append(JSON.stringify(page))
+            ReactDOM.render(navbar, document.getElementById("root"));
+            console.log(page);
