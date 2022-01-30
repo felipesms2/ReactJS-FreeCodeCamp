@@ -55,5 +55,18 @@
 //     h1.className = "header";
 //     document.getElementById("root").append(h1);
 
+const navbar = (
+                <nav>
+                    <h1>
+                        Felipe Medina
+                    </h1>
+                    <ul>
+                        <li>Nav</li>
+                        <li>About</li>
+                        <li>contact</li>
+                    </ul>
+                </nav>
+                )
+
 const page = (<h1>test</h1>);
-ReactDOM.render(page, document.getElementById("root"));
+ReactDOM.render(navbar, document.getElementById("root"));
