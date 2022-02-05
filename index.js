@@ -97,7 +97,6 @@ const page = (
                                     <img src="https://picsum.photos/200/300" width="40px">
                                     </img>
                                 </div>
-
 //ReactDOM.render(navbar, document.getElementById("root"));
 
             // document.getElementById("root").append(page)
