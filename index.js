@@ -92,9 +92,15 @@ const page = (
                     </ol>
                 </div>);
 
+                const page2 = 
+                                <div>
+                                    <img src="https://picsum.photos/200/300" width="40px">
+                                    </img>
+                                </div>
+
 //ReactDOM.render(navbar, document.getElementById("root"));
 
             // document.getElementById("root").append(page)
             // document.getElementById("root").append(JSON.stringify(page))
-            ReactDOM.render(navbar, document.getElementById("root"));
-            console.log(page);
+            ReactDOM.render(page, document.getElementById("root"));
+            // console.log(page);
