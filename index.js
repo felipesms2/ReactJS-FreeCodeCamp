@@ -92,6 +92,31 @@ const page = (
                     </ol>
                 </div>);
 
+function temporaryName()
+     {
+         return(                <div>
+            <h1>
+                My React WebSite
+            </h1>
+            <h3>
+                Reason for use react
+            </h3>
+            <ol>
+                <li>
+                    It's composable
+                </li>
+                <li>
+                    It's Declarative
+                </li>
+                <li>
+                    Hirable Skill
+                </li>
+                <li>
+                    Mainteined by skillable people
+                </li>
+            </ol>
+        </div>)
+     }
                 const page2 = 
                                 <div>
                                     <img src="https://picsum.photos/200/300" width="40px">
@@ -101,5 +126,5 @@ const page = (
 
             // document.getElementById("root").append(page)
             // document.getElementById("root").append(JSON.stringify(page))
-            ReactDOM.render(page, document.getElementById("root"));
+            ReactDOM.render(temporaryName(), document.getElementById("root"));
             // console.log(page);
